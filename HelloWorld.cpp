@@ -13,6 +13,7 @@ int main()
      x.setAddr(a);
      cout<<sizeof x;
      cout<<x.getAddr()<<endl;
+    printf("completed");
     return 0;
 }
 int wifi::getAddr(){
@@ -20,6 +21,7 @@ int wifi::getAddr(){
 }
 void wifi::setAddr(int addr){
     this->addr = addr;
+   
 
 
 }
